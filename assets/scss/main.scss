@@ -1,24 +1,4 @@
-@use "bootstrap/scss/bootstrap" as * with (
-  $info: #5c728f
-);
-
-@use "includes/components/table";
-@use "includes/components/jumbotron";
-@use "includes/components/challenge";
-@use "includes/components/sticky-footer";
-@use "includes/components/graphs";
-
-@use "includes/utils/fonts";
-@use "includes/utils/opacity";
-@use "includes/utils/min-height";
-@use "includes/utils/cursors";
-@use "includes/utils/lolight";
-
-@use "includes/icons/award-icons";
-@use "includes/icons/flag-icons";
-
-h1,
-h2 {
+h1, h2 {
   font-weight: 500;
   letter-spacing: 2px;
 }
